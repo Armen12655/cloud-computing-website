@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="ArmensCSS.css">
+    <link rel="stylesheet" type="text/css" href="ArmensCSS.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Summary</a>
+    <a href="#">Video</a>
+    <a href="#">Poster</a>
+</div>
+
+<div class="topnav">
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> <span style="font-size:15px;cursor:pointer"
+                                                                      onclick="openNav()">&#9776; open</span></a>
+    <div class="login-container">
+        <button type="submit">User accounts</button>
+    </div>
+    <div class="fixed">
+        <a href="#link">Links to gitHub</a>
+        <a href="#link1">Link to professional Account</a>
+        <a href="#link2">Most recent Comment/Reviews</a>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+</body>
+</html>
